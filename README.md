@@ -10,5 +10,5 @@ Sensors: IMU (Internal), Accelerometer (ADXL-345) \
 Actuators: DC Motors
 
 
-[Demo](https://www.youtube.com/watch?v=SOBp2ADBT7k)
+
 
