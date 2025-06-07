@@ -24,9 +24,7 @@ The robot uses a **cascaded PID controller** implemented in C++ with Mbed RTOS:
    Sensor fusion combines gyroscope and accelerometer data to compute pitch angle via complementary filtering.
 2. **Inner Loop:**  
    A fast-acting PID controller adjusts motor torque to correct tilt angle in real time.
-3. **Outer Loop (optional):**  
-   Maintains position or velocity setpoints for trajectory stabilization.
-
+   
 ## Performance
 
 - Stabilizes from ±15° tilt in < 100 ms  
