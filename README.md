@@ -16,7 +16,7 @@ A real-time self-balancing two-wheeled robot powered by an STM32 microcontroller
   - Two DC motors (differential drive)  
 - **Motor Drivers:** H-Bridge motor driver (not shown in schematic)
 
-## ⚙Control System
+## Control System
 
 The robot uses a **cascaded PID controller** implemented in C++ with Mbed RTOS:
 
